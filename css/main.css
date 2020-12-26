@@ -1,0 +1,19 @@
+body, html {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    background: darkgreen;
+    color: white;
+}
+
+nav {
+    background-color: lightgreen;
+    width: 30vw;
+}
+
+article {
+    margin-left: 3%;
+}
+
