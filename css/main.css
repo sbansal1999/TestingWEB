@@ -15,5 +15,6 @@ nav {
 
 article {
     margin-left: 3%;
+    border: 4px dotted aqua;
 }
 
