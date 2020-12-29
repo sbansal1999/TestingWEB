@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>JavaScript and HTML</title>
-    <meta charset="utf-8"/>
-    <script src="js/changeCSS.js">
-    </script>
+    <meta charset="utf-8">
+    <title>OpenStreetMap Example</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="js/changeCSS.js"></script>
+
 </head>
 <body>
-<h1 id="mainTitle">My home page</h1>
-
-<p>This is an example of interactivity between JavaScript and the HTML content of a document.</p>
-<button onclick="changeCSSStyle();">Click me to change the CSS colors of the title of the page</button>
+<button class="btn" onclick="getLocation(event);">Click to show your location with OpenStreetMap</button>
+<div id="map" class="map"></div>
 </body>
 </html>
