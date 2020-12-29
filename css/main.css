@@ -1,20 +1,16 @@
-body, html {
-    font-size: 40px;
-}
-
 h1 {
+    color:red;
+    background-color:lightGreen;
+    border:12px solid violet;
+    padding: 5px;
+    border-radius: 15px;
     text-align: center;
-    background: darkgreen;
-    color: white;
 }
 
-nav {
-    background-color: lightgreen;
-    width: 30vw;
+p, h1 {
+    font-family: cursive
 }
 
-article {
-    margin-left: 3%;
-    border: 4px dotted aqua;
+p, img, button {
+    margin-left:50px;
 }
-
